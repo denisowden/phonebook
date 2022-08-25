@@ -8,10 +8,10 @@ import java.sql.Statement;
 
 public class Main {
 
-    private static boolean execute;
-
     public static void main(String[] args) {
-
         Showbook.showbook();
+        AddContact.add();
+
+
     }
 }
